@@ -36,12 +36,11 @@
       "imageSrc": "skills/python.svg"
     },
     {
-      "title": "SQL",
-      "imageSrc": "skills/sql.png"
+      "title": "MYSQL",
+      "imageSrc": "skills/mysql.svg"
     },
     {
       "title": "Linux",
-      "imageSrc": "skills/linux.png"
+      "imageSrc": "skills/linux.svg"
     }
   ]
-  

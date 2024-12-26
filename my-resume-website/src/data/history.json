@@ -1,10 +1,11 @@
 [
     {
       "role": "Software Engineer Student",
-      "organisation": "Alx Morocco",
+      "organisation": "ALX",
       "startDate": "Feb, 2023",
       "endDate": "Present",
-      "experiences": "Front-end",
+      "experiences": ["Core Programming and Data Structures", "End-to-End Web Application Development"],
       "imageSrc": "history/alx.jpg"
     }
+   
 ]
