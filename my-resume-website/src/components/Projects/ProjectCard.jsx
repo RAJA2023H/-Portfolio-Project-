@@ -1,7 +1,14 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
+import projectAImage from '../../../src/assets/projects/project.jpg';
+import projectBImage from '../../../src/assets/projects/project.jpg';
+import projectCImage from '../../../src/assets/projects/project.jpg';
 
 import { getImageUrl } from "../../utils";
+
+const imagesMap = {
+  "projects/project.jpg": projectAImage,
+};
 
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
@@ -9,7 +16,7 @@ export const ProjectCard = ({
   return (
     <div className={styles.container}>
       <img
-        src={getImageUrl(imageSrc)}
+        src={imagesMap[imageSrc]}
         alt={`Image of ${title}`}
         className={styles.image}
       />

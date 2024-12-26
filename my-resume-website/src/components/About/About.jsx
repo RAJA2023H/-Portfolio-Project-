@@ -1,6 +1,9 @@
 import React from "react";
-import { getImageUrl } from "../../utils";
+
 import styles from "./About.module.css";
+import aboutImage from '../../../src/assets/About/aboutImage.png';
+import cursorIcon from '../../../src/assets/About/cursorIcon.png';
+
 
 export const About = () => {
     return (
@@ -8,13 +11,13 @@ export const About = () => {
             <h2 className={styles.title}>About</h2>
             <div className={styles.content}>
                 <img
-                src={getImageUrl("About/aboutImage.png")}
+                src={aboutImage}
                 alt="Alx SE icon"
                 className={styles.aboutImage}
                 />
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("About/cursorIcon.png")} alt="Cursor icon" />
+                        <img src={cursorIcon} alt="Cursor icon" />
                         <div className={styles.aboutItemText}>
                             <h3>Software Development</h3>
                             <p>
@@ -23,7 +26,7 @@ export const About = () => {
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("About/cursorIcon.png")} alt="Server icon" />
+                        <img src={cursorIcon} alt="Server icon" />
                         <div className={styles.aboutItemText}>
                             <h3>Web Development and Deployment</h3>
                             <p>
@@ -32,7 +35,7 @@ export const About = () => {
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("About/cursorIcon.png")} alt="Server icon" />
+                        <img src={cursorIcon} alt="Server icon" />
                         <div className={styles.aboutItemText}>
                             <h3>Systems Engineering and DevOps</h3>
                             <p>
@@ -41,7 +44,7 @@ export const About = () => {
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("About/cursorIcon.png")} alt="Server icon" />
+                        <img src={cursorIcon} alt="Server icon" />
                         <div className={styles.aboutItemText}>
                             <h3>Front-end specialization</h3>
                             <p>
